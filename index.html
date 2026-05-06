@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaquerries.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">Mary-Ann Affo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-navbar">
+      <div class="logo">Mary-Ann Affo</div>
+      <div class="hamburger-menu-nav">
+        <div class="hamburger-menu-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamburger-menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="profile-image">
+        <img src="assets/profile.jpg" alt="Mary-Ann Profile Image" />
+      </div>
+      <div class="section-text">
+        <p class="section-title-1">Hello, I'm</p>
+        <p class="section-title-2">Mary-Ann Affo</p>
+        <p class="section-description">
+          a rising senior at the University of Nevada, Reno, pursuing a Bachelor's degree
+            in Computer Science and Engineering with a minor in Maths, Stats and Big Data. I am passionate about  
+            data science/analytics, AI/ML and software engineering
+            <br> and I am eager to apply my skills and knowledge in real-world projects and internships.
+            <br> I love the ocean, the color pink and blue and daschunds, I just love all things cute and peaceful.
+        </p>
+        <div class="button-container">
+          <button
+            class="button-1"
+            onclick="window.open('assets/Mary-Ann_Affo_Resume.pdf')"
+          >
+            View Resume
+          </button>
+          <button class="button-2" onclick="location.href = '#contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="social-media-container">
+          <img
+            src="assets/linkedin.jpeg"
+            alt="LinkedIn Icon"
+            class="social-media-icon"
+            onclick="
+              location.href = 'https://www.linkedin.com/in/mary-ann-affo-173668327'
+            "
+          />
+          <img
+            src="assets/github.jpeg"
+            alt="GitHub Icon"
+            class="social-media-icon"
+            onclick="location.href = 'https://github.com/1107-Mary-Ann-Affo '"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section-title-1">Get to Know Me</p>
+      <h2>About Me</h2>
+      <div class="about-section-container">
+        <div class="about-profile-image">
+          <img src="assets/profile1.jpeg" alt="Ocean Image" />
+        </div>
+        <div class="about-description-container">
+          <div class="about-containers">
+            <div class="description-container">
+              <h3>Education</h3>
+              <p>
+                B.S.c Bachelor's degree Computer Science and Engineering 
+                <br> Minor in Maths, Stats and Big Data
+              </p>
+            </div>
+
+            <div class="description-container">
+              <h3>Experience</h3>
+              <p>
+               3+ years of experience in relevant courseworks and hands-on projects 
+                in data science/analytics, AI/ML and software engineering
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <br>
+            <h2>What I'm doing...</h2>
+            <p>Getting in touch with latest AI trends and technologies. Working on projects that involve data analysis and machine learning.
+                Improving my software engineering skills by building projects and getting certifications. 
+                Always eager to learn and grow in the field of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section-title-1">My Journey So Far</p>
+      <h2 class="section-title-2">Experience & Skills</h2>
+      <div class="experience-description-container">
+        <div class="about-section-container">
+          <div class="description-container">
+            <h2 class="experience-subtitle">Frontend Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>JScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="description-container">
+            <h2 class="experience-subtitle">Backend Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpeg"
+                  alt="Experience Icon"
+                  class="experience-icon"
+                />
+                <div>
+                  <h3>JScript</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="projects">
+      <p class="section-title-1">Projects</p>
+      <h2 class="section-title-2">My Work</h2>
+      <div class="experience-description-container">
+        <div class="about-section-container">  
+        <div class="description-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/project1.jpeg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-subtitle project-title">Project 1</h2>
+          <div class="button-container">
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              View Project
+            </button>
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="description-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/project1.jpeg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-subtitle project-title">Project 2</h2>
+          <div class="button-container">
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              View Project
+            </button>
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="description-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/project1.jpeg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-subtitle project-title">Project 3</h2>
+          <div class="button-container">
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              View Project
+            </button>
+            <button
+              class="button-1"
+              onclick="location.href = 'https://github.com/username/project1'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section-title-1">Let's Connect</p>
+      <h2 class="section-title-2">Contact Me</h2>
+      <div class="contact-section-container">
+            <img
+              src="assets/mail.jpeg"
+              alt="Contact Icon"
+              class="contact-icon"
+            />
+            <p><a href="mailto:maffo@unr.edu">maffo@unr.edu</a></p>
+
+            <img
+              src="assets/linkedIn.jpeg"
+              alt="Contact Icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/mary-ann-affo-173668327" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
