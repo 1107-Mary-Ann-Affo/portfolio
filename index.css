@@ -9,6 +9,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fdf0fa;
   color: #333;
+  display: flex;
+  flex-direction: column;
 }
 
 html {
@@ -146,8 +148,8 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  height: 100vh;
+  margin: 0 5%;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -165,10 +167,10 @@ section {
 
 .profile-image img {
   display: flex;
-  height: 400px;
+  height: 350px;
   width: 300px;
   margin: auto 0;
-  border-radius: 50%;
+  border-radius: 60%;
   margin-top: 5rem;
 }
 
@@ -422,4 +424,76 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media screen and (max-width: 768px) {
+
+  section {
+    margin: 0 1rem;
+    height: auto;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #hamburger-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  #profile {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .profile-image img,
+  .about-profile-image img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  .about-section-container,
+  .about-container,
+  .contact-section-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .article-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  article {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-img {
+    width: 40%;
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  
 }
